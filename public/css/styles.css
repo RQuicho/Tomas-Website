@@ -1,0 +1,124 @@
+body {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100%;
+}
+
+.top-container  {
+  background-color: #fbe8d3;
+  padding: 0 15%;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar .collapse .navbar-nav a:hover {
+  color: #f85f73;
+}
+
+.navbar button:hover {
+  background-color: #f85f73;
+}
+
+.page-title {
+  text-align: center;
+  margin: 0;
+  padding: 10px 15px 30px;
+  background-color: #fbe8d3;
+}
+
+
+.card .card-img-overlay .card-text {
+  text-align: center;
+  margin: auto;
+  padding: 25% 0 25% 30%;
+  color: white;
+}
+
+.middle-container {
+  padding: 20px 20%;
+  background-color: #e3eaf9;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+
+.articles {
+  padding-bottom: 300px;
+}
+
+.about {
+  padding-bottom: 130px;
+}
+
+.essays {
+  padding-bottom: 350px;
+}
+
+.bio-img {
+  border-radius: 10%;
+}
+
+.contact-img {
+  text-align: center;
+  border-radius: 10%;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  color: black;
+}
+
+.links a:hover {
+  color: #f85f73;
+  text-decoration: none;
+}
+
+.single-link {
+  padding: 25px;
+  margin: 0;
+}
+
+.footer {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: #fbe8d3;
+}
+
+.font-icon {
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.font-icon:hover {
+  text-decoration: none;
+  color: #f85f73;
+}
+
+.body-error {
+  background-color: #fbe8d3;
+  color: #f85f73;
+  padding: 20% 0 80%;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.lead {
+  text-align: center;
+}
+
+
+
+
+
+
+/*
+#f85f73
+#fbe8d3
+#928a97
+#283c63
+ */
