@@ -58,9 +58,38 @@ body {
   border-radius: 10%;
 }
 
+.email-sen {
+  padding-bottom: 10px;
+}
+
+.contact {
+  padding-bottom: 150px;
+}
+
 .contact-img {
   text-align: center;
   border-radius: 10%;
+  display: block;
+}
+
+.contact-form {
+  margin: 10px 0;
+  display: block;
+}
+
+.name {
+  display:  inline-block;
+}
+
+.contact-btn {
+  background-color: #f85f73;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contact-btn:hover{
+  background-color: #f6314a;
+  color: black;
 }
 
 .links {

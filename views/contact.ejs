@@ -2,19 +2,24 @@
 
 <h1 class="page-title">Contact</h1>
 
-<div class="middle-container">
+<div class="middle-container contact">
   <div class="row">
     <div class="col-1"></div>
-    <div class="col-5">
-      <div class="contact-info">
-        <h4>Email</h4>
-        <p>tomas.c.nieto@gmail.com</p>
-        <h4>Phone</h4>
-        <p>(XXX) XXX-XXXX</p>
+    <div class="col-md-5 col">
+      <div>
+        <p class="email-sen">You can contact me using the form below, or email me directly at tomas.c.nieto@gmail.com</p>
+        <form action="/contact" method=post>
+          <input class="name" type="text" id="name" name="name" placeholder="First and Last Name" />
+          <input class="contact-form" type="text" id="email" name="email" placeholder="Email" />
+          <input class="contact-form" type="text" id="subject" name="subject" placeholder="Subject" />
+          <textarea class="contact-form" id="message" name="message" placeholder="Message" rows="5" cols="25"></textarea>
+          <button type="submit" class="btn contact-btn">Submit</button>
+        </form>
+
       </div>
     </div>
-    <div class="col-5">
-      <img class="contact-img" src="./Images/contact_img.jpg" alt="contact-img" />
+    <div class="col-md-5">
+      <img class="contact-img" src="./images/contact_img.jpg" alt="contact-img" />
     </div>
     <div class="col-1"></div>
   </div>
