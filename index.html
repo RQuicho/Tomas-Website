@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Tomas Nieto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/29dfbd2dd0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+
+  <!-- Nav Bar -->
+
+  <div class="top-container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="/">TOMAS NIETO</a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/about">About</a>
+          <a class="nav-link" href="/poetry">Poetry</a>
+          <a class="nav-link" href="/articles">Articles</a>
+          <a class="nav-link" href="/essays">Essays</a>
+          <a class="nav-link" href="/contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="">
+    <div class="card bg-dark text-white">
+      <img src="./images/home_img.jpg" class="card-img" alt="home-img">
+      <div class="card-img-overlay">
+        <!-- <h5 class="card-title">Card title</h5> -->
+        <h1 class="card-text">"Expressing narratives through storytelling and poetry"</h1>
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="footer">
+        <a href="#" target="_blank"><i class="fab font-icon fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab font-icon fa-twitter"></i></a>
+        <a href="/contact" target="_blank"><i class="fas font-icon fa-envelope"></i></a>
+        <!-- <p>Website Design: Raymond Quicho</p> -->
+        <p>Copyright &copy <span id="currentYear"></span></p>
+        <script>
+          document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+        </script>
+      </div>
+    </footer>
